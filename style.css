@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,500&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/* ############################### Header Styling ################################### */
+
+.icon-bar {
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    background-color: #808080;
+
+}
+
+.icon-bar a {
+    padding: 10px;
+    margin: 0 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon-bar a:hover {
+    background-color: #786d6d;
+}
+
+.active {
+
+    background-color: #04AA6D;
+
+}
+
+/* ################################ Navbar Styling ####################### */
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    background-color: #fff;
+    height: 120px;
+
+}
+
+.navbar a {
+    padding: 40px;
+    margin: 0px 5px;
+    font-weight: 700;
+    color: #808080;
+    text-decoration: none;
+}
+
+.CompanyName {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bolder;
+    font-size: larger;
+    letter-spacing: 2px;
+
+}
+
+.menubar {
+    font-size: xx-large;
+
+}
+
+.search {
+    font-size: xx-large;
+}
+
+.navbar a:hover {
+    background-color: #f3f2f2;
+}
+
+/* ############################### main-menu styling ######################## */
+
+.main-menu {
+    background : url("https://cdn.pixabay.com/photo/2017/03/08/14/20/flat-2126876_1280.png" );
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: center;
+    display: block;
+    width: 100vw;
+    height: 300px;
+    background-color: #808080;
+    color: #fff;
+    text-align: center;
+    padding: 90px 0px;
+
+}
+
+
+.active-1 {
+    background-color: #04AA6D;
+    margin-left: 200px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.active-1:hover{
+    background-color: #399170b0;
+}
+
+.active-2 {
+    background-color: #786d6d;
+    margin-left: 50px;
+
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.active-2:hover{
+    background-color:#a8a3a39d ;
+}
+
+.para {
+    margin-left: 10%;
+}
+
+/* ################################## content styling ############################ */
+
+.content {
+    display: flex;
+    background-color: #fff;
+    width: 100vw;
+    height: 150px;
+    padding: 30px;
+}
+
+.content a {
+    padding: 10px;
+    margin: 0 40px;
+    text-decoration: none;
+    color: #04AA6D;
+}
+
+.content h2 {
+    margin: 0px 45px;
+}
+
+.content p {
+    margin: 0px 45px;
+}
+
+h2 {
+    color: #808080;
+}
+h2:hover{
+    background-color: #dbd7d7;
+}
+
+/* ################## footer styling ###################### */
+
+.footer {
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    background-color: #808080;
+    color: #fff;
+    padding: 15px;
+
+}
+
+.p-1 {
+    margin-left: 10%;
+    font-weight: bolder;
+}
+
+.p-2 {
+    margin-left: 60%;
+    font-weight: 400;
+}
+
+sup {
+    font-size: x-large;
+}
